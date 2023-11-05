@@ -31898,14 +31898,6 @@ cat >>confdefs.h <<_ACEOF
 _ACEOF
 
 
-if test "$ac_cv_sizeof_MPI_Offset" -lt "8"; then
-   as_fn_error $? "
-   -----------------------------------------------------------------------
-     Building of PnetCDF cannot continue due to the size of MPI_Offset
-     being less than 8 bytes. Please use an MPI library that supports
-     large files. Abort.
-   -----------------------------------------------------------------------" "$LINENO" 5
-fi
 
 # The cast to long int works around a bug in the HP C Compiler
 # version HP92453-01 B.11.11.23709.GP, which incorrectly rejects

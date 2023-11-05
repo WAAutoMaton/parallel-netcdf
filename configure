@@ -32082,7 +32082,7 @@ fi
 
 
 if test "$mpi_version" -ge "3" ; then
-   ac_cv_CHECK_MPI_DATATYPE_MPI_OFFSET=yes
+   ac_cv_CHECK_MPI_DATATYPE_MPI_OFFSET=no
 else
 
    { $as_echo "$as_me:${as_lineno-$LINENO}: checking whether MPI datatype MPI_OFFSET is defined " >&5
